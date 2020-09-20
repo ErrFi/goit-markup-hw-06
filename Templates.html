@@ -84,7 +84,23 @@
     <svg class="clients-icon">
       <use href="./images/studio/clients/clients-icons.svg#logo6"></use>
     </svg>
+    <!-- ===== form icons ===== -->
 
+    <svg class="icon">
+      <use href="./images/modal/icons-modal.svg#check"></use>
+    </svg>
+    <svg class="icon">
+      <use href="./images/modal/icons-modal.svg#close"></use>
+    </svg>
+    <svg class="icon">
+      <use href="./images/modal/icons-modal.svg#email"></use>
+    </svg>
+    <svg class="icon">
+      <use href="./images/modal/icons-modal.svg#person"></use>
+    </svg>
+    <svg class="icon">
+      <use href="./images/modal/icons-modal.svg#phone"></use>
+    </svg>
     <!-- =====social icons===== -->
     <!-- <svg class="icon">
       <use href="./images/common/icons/social-icons.svg#envelope"></use>
@@ -189,5 +205,45 @@
         </li>
       </ul>
     </div>
+
+    <!-- ============ Form ============== -->
+    <h2>Оставьте свои данные, мы вам перезвоним</h2>
+    <form class="modal_form" action="#" method="post">
+      <label for="field_name">
+        <span>Имя</span>
+
+        <div class="form-item">
+          <svg class="icon">
+            <use href="./images/modal/icons-modal.svg#person"></use>
+          </svg>
+          <input
+            class="field"
+            type="text"
+            name="name"
+            id="field_name"
+            placeholder="Name"
+          />
+        </div>
+      </label>
+    </form>
+
+    <!-- ========= Backdrop with button and Script ======= -->
+    <button class="btn" data-modal-open>Order</button>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn-close" data-modal-close>
+          <svg class="icon">
+            <use href="./images/modal/icons-modal.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <!-- ====== Logo ====== -->
+    <a href="./index.html" class="logo">
+      <span class="logo-text0">Web</span>
+      <span class="logo-text1">Studio</span>
+    </a>
   </body>
 </html>
