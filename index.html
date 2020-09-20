@@ -510,9 +510,9 @@
             </li>
           </ul>
         </div>
-        <form class="footer-item footer-subscribe">
+        <form class="footer-item subscribe">
           <label class="h3" for="email">Подпишитесь на рассылку</label>
-          <label class="footer-input-wrap">
+          <div class="container">
             <input
               class="input"
               type="email"
@@ -520,22 +520,20 @@
               id="email"
               placeholder="E-mail"
             />
-            <!-- <span>E-mail</span> -->
-          </label>
-          <div class="footer-button-wrap">
+
             <button class="button" type="submit">
-              <span>Подписаться</span>
-              <div class="icon-wrap">
-                <svg class="button-icon">
-                  <use href="./images/modal/icons-modal.svg#email"></use>
+              <div class="container">
+                <span>Подписаться</span>
+                <svg class="icon">
+                  <use href="./images/common/icons/social-icons.svg#send"></use>
                 </svg>
               </div>
             </button>
           </div>
+          <!-- <span>E-mail</span> -->
         </form>
       </div>
     </footer>
-
     <!-- модалка -->
     <div class="backdrop is-hidden" data-modal>
       <form class="form modal">

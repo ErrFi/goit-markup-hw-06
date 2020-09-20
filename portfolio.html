@@ -241,15 +241,28 @@
             </li>
           </ul>
         </div>
-        <div class="footer-item footer-subscribe">
-          <h3 class="h3">Подпишитесь на рассылку</h3>
-          <div class="footer-input-wrap">
-            <span>E-mail</span>
+        <form class="footer-item subscribe">
+          <label class="h3" for="email">Подпишитесь на рассылку</label>
+          <div class="container">
+            <input
+              class="input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            />
+
+            <button class="button" type="submit">
+              <div class="container">
+                <span>Подписаться</span>
+                <svg class="icon">
+                  <use href="./images/common/icons/social-icons.svg#send"></use>
+                </svg>
+              </div>
+            </button>
           </div>
-          <div class="footer-button-wrap">
-            <span>Подписаться</span>
-          </div>
-        </div>
+          <!-- <span>E-mail</span> -->
+        </form>
       </div>
     </footer>
   </body>
