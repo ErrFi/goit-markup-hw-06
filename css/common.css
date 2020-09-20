@@ -754,6 +754,9 @@ form .h2 {
   fill: var(--active-1);
 }
 .form .button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -763,6 +766,7 @@ form .h2 {
   letter-spacing: 0.06em;
   color: var(--text-light);
 }
-body {
+
+/* body {
   background: rgba(0, 0, 0, 0.2);
-}
+} */
