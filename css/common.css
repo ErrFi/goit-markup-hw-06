@@ -561,6 +561,8 @@
   font-family: Roboto;
   opacity: 1;
   visibility: visible;
+  transition-property: opacity;
+  transition: var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
   position: absolute;
